@@ -1,41 +1,41 @@
-.programmer {
-  margin:50px auto 50px auto;
+body {
+  margin: 0;
+  text-align: center;
+  font-family: verdana, sans-serif;
+  color: #40514E;
 }
 
 h1 {
-  margin:50px auto 0 auto ;
+  margin: 50px auto 0 auto;
+  line-height: 2;
   font-family: 'Sacramento', cursive;
-  font-size: 3.5rem;
+  font-size: 5.5rem;
   color: #66BFBF;
+  font-weight: bold;
 }
 
 h2 {
   margin: 0;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 2rem;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 3.5rem;
   color: #66BFBF;
 }
 
 h3 {
   color: #11999E;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size:2rem;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 2rem;
 }
 
-a {
-  color: #11999E;
-}
-span {
-  text-decoration: underline;
-}
-body {
-  margin: 0;
-  text-align: center;
-  font-family: verdana, sans-serif;
+p {
+  margin-bottom: 0;
+  line-height: 2;
 }
 
 .top-container {
-  margin:0;
+  margin: 0;
   background-color: #def4f0;
   padding-top: 100px;
   position: relative;
@@ -43,23 +43,131 @@ body {
 
 .bottom-cloud {
   position: absolute;
-  left:300px;
-  bottom:300px;
+  left: 250px;
+  bottom: 300px;
 }
 
 .top-cloud {
-  display: block;
   position: absolute;
-  right:300px;
-  top:50px;
+  right: 300px;
+  top: 40px;
+}
+.programmer {
+  margin: 0 auto 50px auto;
+  font-weight: normal;
+  font-size: 2rem;
 }
 
 
-.btn {
-  position:relative;
-  margin-top:20px;
+
+.middle-container {
+  margin: 100px 0;
 }
 
-p {
-  margin-bottom: 20px;
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.profile {
+  padding-top: 60px;
+  margin-bottom: 50px;
+}
+
+.skills {
+  margin-top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.skill-row-image1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row-image2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+a:hover {
+  color:#EAF6F6;
+}
+span {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+.myButton {
+  box-shadow: 0 1px 0 0 #f0f7fa;
+  background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+  background-color: #33bdef;
+  border-radius: 6px;
+  border: 1px solid #057fd0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 16px 24px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 #5b6178;
+  margin: 50px auto;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+  background-color: #019ad2;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.footer-link {
+  display: inline-block;
+  margin: 50px 30px;
+  font-weight: bold;
+}
+
+
+
+hr {
+  width: 5%;
+  border: dotted #66BFBF 6px;
+  border-bottom:none;
+  margin:100px auto;
+
+}
+
+
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-bottom: 30px;
+}
+
+.contact-me {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
 }
